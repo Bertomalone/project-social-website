@@ -1160,4 +1160,125 @@ template {
   font-size: 14px;
   margin-top: 32px;
 }
+
+.detail-page {
+  margin-top: 66px;
+}
+
+.detail__banner {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url("../images/gallery/tim-marshall-1254041-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/gallery/tim-marshall-1254041-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 355px;
+  width: 100%;
+}
+
+.detail__banner h1 {
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.detail__banner-bar {
+  background: #37b76d;
+  height: 1px;
+  width: 110px;
+}
+
+.detail__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 32px;
+  margin-top: 55px;
+}
+
+.detail__container-left {
+  width: 57.25%;
+}
+
+.detail__container-right {
+  width: 37.5%;
+}
+
+.detail__desc, .detail__rules, .detail__sidebar {
+  border: 1.3px solid #d9d9d9;
+  border-radius: 12px;
+  padding: 16px;
+  width: 100%;
+}
+
+.detail__desc h2, .detail__rules h2, .detail__sidebar h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.detail__desc p, .detail__rules p, .detail__sidebar p {
+  line-height: 1.5;
+}
+
+.detail__rules {
+  margin-top: 40px;
+}
+
+.detail__statistics {
+  margin-top: 24px;
+}
+
+.detail__statistic-item {
+  border-bottom: 1px solid #d9d9d9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+}
+
+.detail__statistic-item:last-child {
+  border-bottom: none;
+}
+
+.detail__statistic-item span {
+  width: 50%;
+}
+
+.detail__statistic-item span:first-child {
+  font-weight: 700;
+}
+
+.detail__sidebar-btn {
+  background: #37b76d;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+  margin-top: 16px;
+  padding: 8px 0;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+.detail__sidebar-btn:hover {
+  background: #5ECF47;
+}
 /*# sourceMappingURL=style.css.map */
