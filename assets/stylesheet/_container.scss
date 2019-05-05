@@ -1,15 +1,27 @@
 .container-large {
-    margin: auto;
-    max-width: 1175px;
-    position: relative;
-  
-    @media only screen and (max-width: 1200px) {
-      max-width: 860px;
-    }
-  
-    @media only screen and (max-width: 900px) {
-      max-width: 100%;
-      margin: 0 16px;
-    }
+  margin: auto;
+  max-width: 1230px;
+  position: relative;
+
+  @media only screen and (max-width: 1200px) {
+    max-width: 860px;
+  }
+
+  @media only screen and (max-width: 900px) {
+    max-width: 100%;
+    margin: 0 16px;
+  }
 }
+
+.container-small {
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+
+  @media only screen and (max-width: 900px) {
+    max-width: 628px;
+  }
+}
+
+
   
