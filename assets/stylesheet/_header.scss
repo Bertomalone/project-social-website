@@ -28,9 +28,14 @@
       margin-right: 40px;
       text-decoration: none;
       text-transform: uppercase;
+      transition: color 0.3s ease-in-out;
 
       &:last-child {
         margin: 0;
+      }
+
+      &:hover {
+        color: $colorPrimary;
       }
     }
   }
