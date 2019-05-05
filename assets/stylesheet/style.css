@@ -837,6 +837,7 @@ template {
   border: none;
   border-radius: 4px;
   color: #fff;
+  cursor: pointer;
   display: block;
   font-weight: 700;
   margin: auto;
