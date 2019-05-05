@@ -13,6 +13,17 @@
   }
 }
 
+.container-medium {
+  margin: auto;
+  max-width: 1065px;
+  position: relative;
+
+  @media only screen and (max-width: 1100px) {
+    max-width: 100%;
+    margin: 0 16px;
+  }
+}
+
 .container-small {
   max-width: 800px;
   margin: auto;
@@ -22,6 +33,3 @@
     max-width: 628px;
   }
 }
-
-
-  

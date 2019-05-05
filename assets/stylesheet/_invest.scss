@@ -1,0 +1,98 @@
+.invest-page {
+  margin-top: 100px;
+}
+
+.invest {
+  &__title {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  &__form {
+    border: 1.3px solid #d9d9d9;
+    border-left-color: $colorPrimary;
+    border-left-width: 2px;
+    border-radius: 4px;
+    margin: 32px 0;
+    padding: 16px;
+    width: 50%;
+
+    @media only screen and (max-width: 1100px) {
+      width: 100%;
+    }
+  }
+
+  &__form-title {
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-top: 0;
+  }
+
+  &__form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    width: 100%;
+
+    label,
+    input,
+    select,
+    textarea,
+    span {
+      display: block;
+      width: 100%;
+    }
+
+    input,
+    select,
+    textarea {
+      border: 1px solid #d9d9d9;
+      border-radius: 4px;
+      margin-top: 4px;
+      padding: 4px;
+    }
+
+    textarea {
+      height: 80px;
+    }
+
+    span {
+      color: $textColorGrey;
+      font-size: 14px;
+      margin-top: 4px;
+    }
+  }
+
+  &__form-full {
+    width: 100%;
+  }
+
+  &__form-half {
+    width: 48%;
+  }
+
+  &__form-submit {
+    background: $colorPrimary;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-weight: 700;
+    margin: auto;
+    padding: 6px 0;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out;
+    width: 80%;
+
+    &:hover {
+      background: $colorPrimaryLighter;
+    }
+  }
+
+  &__form-info {
+    color: $textColorGrey;
+    font-size: 14px;
+    margin-top: 32px;
+  }
+}
