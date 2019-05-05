@@ -1,0 +1,54 @@
+.intro {
+    background-image: url('../images/gallery/shala-umahshakti-7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+  
+    &::before {
+        background-color: rgba(#000, 0.65);
+        content: "";
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+  
+    &__title,
+    &__desc {
+        color: #fff;
+        margin: 0;
+        text-align: center;
+    }
+  
+    &__title {
+        font-size: 32px;
+        font-weight: 400;
+
+        @media only screen and (max-width: 420px) {
+        font-size: 30px;
+        }
+    }
+  
+    &__desc {
+        font-size: 20px;
+        line-height: 1.8;
+        max-width: 800px;
+        margin-top: 18px;
+
+        @media only screen and (max-width: 420px) {
+            font-size: 18px;
+            margin-top: 28px;
+        }
+
+        @media only screen and (max-width: 320px) {
+            font-size: 16px;
+        }
+
+        &--green {
+            color: $colorPrimary;
+        }
+    }  
+}

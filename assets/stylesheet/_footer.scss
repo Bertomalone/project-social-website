@@ -1,0 +1,52 @@
+.footer {
+    margin-top: 145px;
+    box-shadow: 0 -8px 18px -2px rgba($color: #000000, $alpha: 0.1);
+
+    &__about-jatiluwih {
+        display: flex;
+        justify-content: space-between;
+        padding: 28px 0;
+    }
+
+    &__description {
+        width: 50%;
+    }
+
+    &__title {
+        color: $colorPrimary;
+        font-size: 20px;
+        margin: 0;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-size: 20px;
+        line-height: 1.4;
+        margin: 0;
+    }
+
+    &__btn-direction {
+        border-radius: 12px;
+        margin-top: 20px;
+        align-self: flex-start;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #fff;
+        background-color: $colorPrimary;
+        padding: 35px 37px;
+    } 
+
+    &__copyright-wrapper {
+        background-color: $colorPrimary;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    &__copyright {
+        color: #fff;
+        font-size: 24px;
+        margin: 0;
+    }
+}
