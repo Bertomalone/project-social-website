@@ -36,6 +36,21 @@
         color: #fff;
         background-color: $colorPrimary;
         padding: 35px 37px;
+        text-decoration: none; 
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            background-color: #3dbe73;
+        }
+        @media only screen and (max-width: 1255px) {
+            font-size: 22px;
+            padding: 28px 30px;
+        }
+
+        @media only screen and (max-width: 820px) {
+            font-size: 18px;
+            padding: 20px 24px;
+        }
     } 
 
     &__copyright-wrapper {

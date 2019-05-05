@@ -7,11 +7,16 @@
     }
 
     &__image-wrapper {
+        cursor: pointer;
         border-radius: 12px;
         box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
         overflow: hidden;
         height: 612px;
         width: 612px;
+
+        &:hover .description__image {
+            transform: scale(1.1);
+        }
     }
 
     &__image {
@@ -19,6 +24,7 @@
         background-size: cover;
         background-position: center;
         height: 100%;
+        transition: all .3s ease-in-out;
     }
 
     &__detail-info {
@@ -58,6 +64,10 @@
         font-size: 26px;
         margin: 0;
         margin-bottom: 15px;
+
+        @media only screen and (max-width: 900px) {
+            font-size: 22px;
+        }
     }
 
     &__text {
@@ -65,5 +75,9 @@
         margin: 0;
         font-size: 24px;
         line-height: 1.6;
+
+        @media only screen and (max-width: 900px) {
+            font-size: 18px;
+        }
     }
 }

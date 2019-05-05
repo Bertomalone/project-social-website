@@ -8,13 +8,31 @@
     }
 
     &__card {
+        cursor: pointer;
         display: flex;
         box-shadow: 0 0 10px 0 rgba($color: #000000, $alpha: 0.15);
         width: 30%;
         padding: 34px 36px;
+        transition: color .3s ease-in-out;
 
         &:nth-child(4), &:nth-child(5), &:nth-child(6) {
             margin-top: 68px;
+        }
+
+        &:hover {
+            color: $colorPrimary;
+        }
+
+        @media only screen and (max-width: 900px) {
+            width: 48%;
+
+            &:nth-child(4), &:nth-child(5), &:nth-child(6) {
+                margin-top: 0;
+            }
+
+            &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+                margin-bottom: 30px;
+            } 
         }
     }
 
@@ -47,5 +65,9 @@
         color: $textColorGrey;
         margin: 0;
         line-height: 1.6;
+
+        @media only screen and (max-width: 1255px) {
+            font-size: 14px;
+        }
     }
 }
