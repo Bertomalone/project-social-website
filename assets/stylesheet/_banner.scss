@@ -1,0 +1,32 @@
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),   url(../images/gallery/tim-marshall-1254041-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    &__text-box {
+        height: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        color: #fff;
+        margin: 0;
+        font-size: 62px;
+        line-height: 1.4;
+        margin-bottom: 38px;
+    }
+
+    &__next-btn {
+        align-self: flex-start;
+        border-radius: 12px;
+        color: #fff;
+        background-color: #37b76d;
+        font-size: 28px;
+        text-decoration: none;
+        padding: 18px 30px;
+    }
+}
