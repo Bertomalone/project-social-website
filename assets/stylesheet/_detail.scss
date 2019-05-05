@@ -1,0 +1,108 @@
+.detail-page {
+  margin-top: 66px;
+}
+
+.detail {
+  &__banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+      url("../images/gallery/tim-marshall-1254041-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 355px;
+    width: 100%;
+
+    h1 {
+      color: #fff;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
+
+  &__banner-bar {
+    background: $colorPrimary;
+    height: 1px;
+    width: 110px;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    margin-top: 55px;
+  }
+
+  &__container-left {
+    width: 57.25%;
+  }
+
+  &__container-right {
+    width: 37.5%;
+  }
+
+  &__desc,
+  &__rules,
+  &__sidebar {
+    border: 1.3px solid #d9d9d9;
+    border-radius: 12px;
+    padding: 16px;
+    width: 100%;
+
+    h2 {
+      font-size: 20px;
+      margin-top: 0;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+  }
+
+  &__rules {
+    margin-top: 40px;
+  }
+
+  &__statistics {
+    margin-top: 24px;
+  }
+
+  &__statistic-item {
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    span {
+      width: 50%;
+    }
+
+    span:first-child {
+      font-weight: 700;
+    }
+  }
+
+  &__sidebar-btn {
+    background: $colorPrimary;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-weight: 700;
+    margin-top: 16px;
+    padding: 8px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+
+    &:hover {
+      background: $colorPrimaryLighter;
+    }
+  }
+}
